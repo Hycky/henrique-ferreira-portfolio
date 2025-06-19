@@ -1,14 +1,18 @@
-import './App.css'
-import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import About from './components/About'
-import Portfolio from './components/Portfolio'
-import DataEngineering from './components/DataEngineering'
-import Automation from './components/Automation'
-import Cases from './components/Cases'
-import Certifications from './components/Certifications'
-import Contact from './components/Contact'
-import Footer from './components/Footer'
+import './App.css';
+
+// Componentes comuns (comuns entre páginas)
+import Navbar from './components/common/Navbar';
+import Footer from './components/common/Footer';
+import Hero from './components/common/Hero';
+
+// Páginas principais
+import About from './pages/About';
+import Portfolio from './pages/Portfolio';
+import DataEngineering from './pages/DataEngineering';
+import Automation from './pages/Automation';
+import Cases from './pages/Cases';
+import Certifications from './pages/Certifications';
+import Contact from './pages/Contact';
 
 function App() {
   return (
@@ -24,8 +28,7 @@ function App() {
       <Contact />
       <Footer />
     </div>
-  )
+  );
 }
 
-export default App
-
+export default App;
