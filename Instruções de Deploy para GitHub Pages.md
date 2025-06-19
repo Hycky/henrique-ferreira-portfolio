@@ -3,10 +3,12 @@
 ## Configuração Inicial
 
 1. **Criar repositório no GitHub**:
+
    - Crie um novo repositório público no GitHub com o nome `henrique-ferreira-portfolio`
    - Não inicialize com README, .gitignore ou licença
 
 2. **Configurar o repositório local**:
+
    ```bash
    cd henrique-ferreira-portfolio
    git init
@@ -34,6 +36,7 @@ O site será automaticamente deployado sempre que você fizer push para a branch
 
 Após o deploy, o site estará disponível em:
 `https://SEU_USUARIO.github.io/henrique-ferreira-portfolio/`
+ou no dns
 
 ## Comandos Úteis
 
@@ -59,4 +62,3 @@ Após o deploy, o site estará disponível em:
 ✅ Seções: Sobre, Portfólio, Engenharia de Dados, Automação, Cases, Certificações, Contato
 ✅ Formulário de contato
 ✅ Deploy automático no GitHub Pages
-
