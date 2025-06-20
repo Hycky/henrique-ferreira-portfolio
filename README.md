@@ -42,11 +42,3 @@ Este é meu portfólio profissional como **Analista de BI** e **Engenheiro de Da
 | Automação       | n8n, Bash Scripts                       |
 
 ---
-
-## 📂 Estrutura do projeto
-
-```plaintext
-📁 src/
-├── assets/              # Ícones e imagens
-├── components
-```
